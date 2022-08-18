@@ -1,3 +1,19 @@
+# [7.0.0-beta.1](https://github.com/Trott/slug/compare/v6.0.0...v7.0.0-beta.1) (2022-08-18)
+
+
+### chore
+
+* drop support for Node.js 12.x and 17.x ([dd06d3b](https://github.com/Trott/slug/commit/dd06d3be7a139d157814f13aed8c7a3d169202e6))
+* ESM only ([383e357](https://github.com/Trott/slug/commit/383e3572dbb69dcbb4c164c814ff68cd4259c6a4))
+* remove AMD support ([04e116f](https://github.com/Trott/slug/commit/04e116f433b69fc938edbe8eb3e447cb37c9b8e4))
+
+
+### BREAKING CHANGES
+
+* module is now ESM only
+* Loading via AMD will no longer work out-of-the-box.
+* Drop support for Node.js earlier than 14.x.
+
 # [6.0.0](https://github.com/Trott/slug/compare/v5.3.0...v6.0.0) (2022-08-16)
 
 
